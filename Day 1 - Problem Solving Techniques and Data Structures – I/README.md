@@ -69,9 +69,7 @@ Each set includes:
 - **`complexity_and_design.md`** — Time/space complexity and data-structure rationale.
 - **Trace document** — A typed algorithm trace or sorting-stability example.
 
-## Notes
 
-- All CSV records are synthetic and do not contain real customer, banking or patient information.
 - Runtime measurements depend on hardware, Python version and system load. Compare algorithms on the same machine.
 - Binary search requires the input to be sorted by the search key.
 - The trace documents provide compact typed demonstrations; they can be used as a reference when preparing handwritten or scanned traces.
