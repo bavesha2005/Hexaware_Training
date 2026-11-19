@@ -1,0 +1,10 @@
+Jira Key,Story,Story Points,Sprint Decision
+WALLET-7,Add money using a saved bank account,5,In Sprint
+WALLET-8,View available wallet balance,2,In Sprint
+WALLET-9,Pay a merchant using wallet balance,5,In Sprint
+WALLET-10,View transaction history,3,In Sprint
+WALLET-11,Refund eligible cancelled purchase to wallet,5,Added on Day 4
+WALLET-12,Support agent checks refund status,2,In Sprint
+WALLET-13,Enable transaction PIN,3,Removed on Day 4
+WALLET-14,Receive debit alert,2,Removed on Day 4
+WALLET-15,Temporarily freeze wallet,3,Backlog

@@ -1,0 +1,9 @@
+Jira Key,Story,Points,Sprint Decision
+ELEARN-4,Browse available courses,5,Initial sprint
+ELEARN-5,Enrol in a course,5,Initial sprint
+ELEARN-6,Resume a course from last position,3,Initial sprint
+ELEARN-7,Take a course assessment,5,Moved out on Day 6
+ELEARN-8,See assessment result,2,Initial sprint
+ELEARN-9,See certificate eligibility,3,Initial sprint
+ELEARN-10,Download completion certificate,5,Backlog – original story
+ELEARN-13,Urgent certificate download for launch,5,Added Day 6

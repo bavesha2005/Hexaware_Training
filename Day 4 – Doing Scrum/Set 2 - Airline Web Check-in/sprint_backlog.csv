@@ -1,0 +1,7 @@
+Jira Key,Story,Points,Readiness
+CHECKIN-5,Retrieve booking by PNR and surname,5,Ready
+CHECKIN-6,Confirm passenger details,3,Ready
+CHECKIN-7,Download boarding pass,5,Ready
+CHECKIN-8,View available seats,5,Ready
+CHECKIN-10,Purchase seat upgrade (blocked by sandbox),8,Ready except CHECKIN-10: dependency is an active impediment
+CHECKIN-11,View upgrade price before payment,2,Ready
