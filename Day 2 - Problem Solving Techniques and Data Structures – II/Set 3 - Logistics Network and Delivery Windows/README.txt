@@ -22,8 +22,6 @@ RUN
 
 FILES
 - logistics_network.py: complete source code
-- execution_output.txt: sample execution output
-- algorithm_explanations.md: algorithm choices, complexity and graph details
 
 GRAPH ASSUMPTION
 The sample network is undirected: each direct connection is listed in both
