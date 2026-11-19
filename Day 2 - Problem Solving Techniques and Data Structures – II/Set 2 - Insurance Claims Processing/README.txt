@@ -28,5 +28,3 @@ sorted lists.
 FILES
 - insurance_claims.py: complete algorithms and sample demonstration
 - test_cases.py: standard-library unit tests
-- execution_output.txt: sample program output
-- complexity_table.md: complexity and collision-handling explanation
