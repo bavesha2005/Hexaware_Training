@@ -21,9 +21,6 @@ RUN
 
 FILES
 - ecommerce_catalogue.py: complete source code
-- execution_output.txt: sample execution output
-- decision_table.md: algorithm and data-structure rationale
 
-NOTES
 Benchmark timings depend on hardware and system load. The custom hash table
 uses separate chaining, so colliding keys are stored in the same bucket.
