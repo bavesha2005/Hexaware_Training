@@ -22,24 +22,15 @@ Day 1/
 ├── Set 1 - Retail Order Desk/
 │   ├── README.md
 │   ├── main.py
-│   ├── orders.csv
-│   ├── execution_output.txt
-│   ├── complexity_and_design.md
-│   └── sorting_trace.md
+│   └──  orders.csv
 ├── Set 2 - Retail Banking Transaction Review/
 │   ├── README.md
 │   ├── main.py
-│   ├── transactions.csv
-│   ├── execution_output.txt
-│   ├── complexity_and_design.md
-│   └── stability_trace.md
+│   └── transactions.csv
 └── Set 3 - Hospital Appointment Desk/
     ├── README.md
     ├── main.py
-    ├── appointments.csv
-    ├── execution_output.txt
-    ├── complexity_and_design.md
-    └── sorting_trace.md
+    └── appointments.csv
 ```
 
 ## Getting Started
