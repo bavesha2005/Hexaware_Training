@@ -1,16 +1,3 @@
-/*
-DAY 9 — RETAIL ORDER FULFILMENT
-CONSOLIDATED SQL SERVER SCRIPT
-
-Run this single file in SQL Server Management Studio (SSMS).
-Sections are ordered: schema/setup → views → procedures/functions → cursor/set-based.
-*/
-
-
-/* ============================================================
-   SCHEMA SETUP
-   ============================================================ */
-
 IF DB_ID(N'RetailFulfilmentDB') IS NULL CREATE DATABASE RetailFulfilmentDB;
 GO
 USE RetailFulfilmentDB;
@@ -37,9 +24,6 @@ GO
 
 
 
-/* ============================================================
-   VIEWS
-   ============================================================ */
 
 USE RetailFulfilmentDB;
 GO
@@ -66,10 +50,6 @@ UPDATE dbo.vw_active_products SET UnitPrice=UnitPrice WHERE ProductID=1;
 GO
 
 
-
-/* ============================================================
-   STORED PROCEDURES AND FUNCTIONS
-   ============================================================ */
 
 USE RetailFulfilmentDB;
 GO
@@ -123,7 +103,6 @@ BEGIN
  END CATCH
 END;
 GO
--- Example:
 -- DECLARE @L dbo.OrderLineInput,@N INT;
 -- INSERT @L VALUES(1,2),(4,1);
 -- EXEC dbo.usp_PlaceOrder 1,@L,@N OUTPUT;
@@ -132,10 +111,6 @@ GO
 GO
 
 
-
-/* ============================================================
-   CURSOR AND SET-BASED ALTERNATIVE
-   ============================================================ */
 
 USE RetailFulfilmentDB;
 GO
