@@ -1,16 +1,3 @@
-/*
-DAY 9 — INSURANCE PREMIUM PROCESSING
-CONSOLIDATED SQL SERVER SCRIPT
-
-Run this single file in SQL Server Management Studio (SSMS).
-Sections are ordered: schema/setup → views → procedures/functions → cursor/set-based.
-*/
-
-
-/* ============================================================
-   SCHEMA SETUP
-   ============================================================ */
-
 IF DB_ID(N'InsurancePremiumDB') IS NULL CREATE DATABASE InsurancePremiumDB;
 GO
 USE InsurancePremiumDB;
@@ -41,10 +28,6 @@ GO
 
 
 
-/* ============================================================
-   VIEWS
-   ============================================================ */
-
 USE InsurancePremiumDB;
 GO
 CREATE OR ALTER VIEW dbo.vw_policy_due AS
@@ -60,10 +43,6 @@ SELECT * FROM dbo.vw_policy_due;
 GO
 
 
-
-/* ============================================================
-   STORED PROCEDURES AND FUNCTIONS
-   ============================================================ */
 
 USE InsurancePremiumDB;
 GO
@@ -117,10 +96,6 @@ GO
 GO
 
 
-
-/* ============================================================
-   CURSOR AND SET-BASED ALTERNATIVE
-   ============================================================ */
 
 USE InsurancePremiumDB;
 GO
