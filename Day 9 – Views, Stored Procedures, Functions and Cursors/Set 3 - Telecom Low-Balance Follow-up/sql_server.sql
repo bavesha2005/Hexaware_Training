@@ -1,16 +1,3 @@
-/*
-DAY 9 — TELECOM LOW-BALANCE FOLLOW-UP
-CONSOLIDATED SQL SERVER SCRIPT
-
-Run this single file in SQL Server Management Studio (SSMS).
-Sections are ordered: schema/setup → views → procedures/functions → cursor/set-based.
-*/
-
-
-/* ============================================================
-   SCHEMA SETUP
-   ============================================================ */
-
 IF DB_ID(N'TelecomPrepaidDB') IS NULL CREATE DATABASE TelecomPrepaidDB;
 GO
 USE TelecomPrepaidDB;
@@ -38,10 +25,6 @@ GO
 
 
 
-/* ============================================================
-   VIEWS
-   ============================================================ */
-
 USE TelecomPrepaidDB;
 GO
 CREATE OR ALTER VIEW dbo.vw_prepaid_subscribers AS
@@ -63,10 +46,6 @@ SELECT * FROM dbo.vw_recharge_summary;
 GO
 
 
-
-/* ============================================================
-   STORED PROCEDURES AND FUNCTIONS
-   ============================================================ */
 
 USE TelecomPrepaidDB;
 GO
@@ -126,10 +105,6 @@ GO
 GO
 
 
-
-/* ============================================================
-   CURSOR AND SET-BASED ALTERNATIVE
-   ============================================================ */
 
 USE TelecomPrepaidDB;
 GO
